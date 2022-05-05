@@ -1,1 +1,89 @@
 /* You can add global styles to this file, and also import other style files */
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: #ddd;
+    height: 100%;
+    width: 100%;
+}
+main.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0 20px;
+}
+
+.alert-copied {
+    display: inline-block;
+    text-align: center;
+    background-color: #333;
+    color: #aaa;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+.page-title {
+    font-size: 28px;
+    margin: 50px 0;
+    font-weight: 500;
+}
+
+.block-colors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 50px;
+}
+
+.block-colors .color-item {
+    width: 200px;
+    background-color: white;
+    padding: 5px;
+    margin: 0 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.block-colors .color-item .color-pic {
+    display: inline-block;
+    width: 160px;
+    height: 250px;
+    /* background-color: aqua; */
+    border-radius: 3px;
+}
+.block-colors .color-item .color-title {
+    margin: 7px 0 5px;
+    color: rgba(0 ,0, 0, 0.75);
+}
+.block-generate {
+    margin: 30px 0;
+}
+.block-generate .btn-generate {
+    background-color: rgb(85, 57, 171, 0.8);
+    color: white;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+    outline: none;
+    border: 2px solid white;
+    font-weight:600;
+    cursor: pointer;
+}
+.block-generate .btn-generate:active {
+    background-color: rgb(85, 57, 171, 1);
+}
+.block-info {
+    background-color: #fff;
+    color: #111;
+    padding: 8px 7px;
+    display: inline-block;
+    border-radius: 15px;
+}
