@@ -2,6 +2,7 @@
 
 ## Author Info
 URL: https://www.codementor.io/projects/web/random-color-palette-generator-web-app-ccdljvurh6
+
 Coded By **Ahmad Haseeb**
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
